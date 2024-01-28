@@ -1,0 +1,40 @@
+/* Styles that only apply to the home page */
+
+:root {
+	--home-top-blurb-color: var(--text-accent-color);
+}
+
+#top-section {
+	background-color: transparent;
+}
+
+#about-me-section {
+	background-color: var(--darkest-gray);
+	font-family: "times new roman";
+}
+
+#projects-list-section {
+	background-color: transparent;
+}
+
+.home-top-blurb {
+	width: 90%;
+	color: var(--home-top-blurb-color);
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.big-alec {
+	color: var(--lightest-gray);
+	font-size: 5em;
+	font-weight: var(--regular-font-weight);
+	margin-bottom:30px;
+	line-height: 1.0;
+	display: inline-block;
+}
+
+.about-long-text {
+	padding: 30px;
+	background: var(--darkest-gray);
+}
+

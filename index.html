@@ -1,63 +1,73 @@
+
 <!doctype html>
 <html lang="en">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Mechanical Engineering portfolio of Alec Perkins">
+	<meta name="author" content="Alec Perkins">
 
 	<title>Alec Perkins Portfolio</title>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/unicons.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://alec-perkins.github.io/portfolio/css/unicons.css">
 
 	<!-- MAIN STYLE -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- STYLES FOR THIS PAGE ONLY -->
+	<link rel="stylesheet" href="css/homepage.css">
 
 
 </head>
 
 <body>
 
-	<!-- MENU -->
-	<nav class="navbar navbar-expand-sm navbar-light">
-		<div class="container">
-			<!-- <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Alec</a> -->
-			<a class="navbar-brand" href="index.html"><i class='uil uil-user'></i><span style="display:inline-block; padding-bottom:23px;">Alec</span></a>
+	<!-- MENU ("navbar") -->
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-sm navbar-dark">
+		<div class="container-fluid">
+
+			<!-- head and shoulders icon on left, "Alec" on right -->
+			<a class="navbar-brand" href="index.html"><i class='uil uil-user'></i><span style="display:inline-block; padding-bottom:22px;">Alec</span></a>
+
+			<!-- TODO: aria accessibility not yet tested -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
 				<span class="navbar-toggler-icon"></span>
 				<span class="navbar-toggler-icon"></span>
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
+			<!-- main menu items -->
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav mx-auto">
 					<li class="nav-item">
-						<a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+						<a href="#about-me-section" class="nav-link"><span data-hover="About">About</span></a>
 					</li>
 					<li class="nav-item">
-						<a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+						<a href="#projects-list-section" class="nav-link"><span data-hover="Projects">Projects</span></a>
 					</li>
 					<li class="nav-item">
-						<a href="#resume" class="nav-link"><span data-hover="Education">Education</span></a>
+						<a href="#education-section" class="nav-link"><span data-hover="Education">Education</span></a>
 					</li>
 					<li class="nav-item">
-						<a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+						<a href="#footer" class="nav-link"><span data-hover="Contact">Contact</span></a>
 					</li>
 				</ul>
-
 			</div>
+
 		</div>
 	</nav>
 
-	<!-- ABOUT -->
-	<section class="about full-screen d-lg-flex justify-content-center align-items-center">
+
+
+	<!-- HOMEPAGE TOP SECTION -->
+
+	<section id="top-section" class="about full-screen d-lg-flex justify-content-center align-items-center">
 		<div class="container">
 			<div class="row">
 
@@ -65,71 +75,198 @@
 					<div class="about-text">
 
 
-						<span class="big-alec">Alec Perkins</span>
+						<div class="big-alec">Alec Perkins</div>
 
-
-						<!-- <h1 class="animated animated-text">
-							<span class="mr-2">Welcome to <span class="purp-alec">Alec's</span></span>
-							<br><span class="mr-2">Portfolio Site!</span>
-						</h1> -->
-
-						<p style="width: 90%" class="explore-text">I'm a <span
-								style="color: #bb96ff; font-weight: bold;">mechanical engineering</span>
-							major at UC Santa Barbara with special interests in
-							<span style="color: #bb96ff; font-weight: bold;">aerospace</span>
-							and <span style="font-weight: bold;">biomechanical</span> engineering.
+						<p style="width: 90%" class="home-top-blurb">I&rsquo;m a <strong>Mechanical
+								Engineering</strong> major at UC Santa Barbara with special interests in
+							<strong>aerospace</strong>
+							and <strong>biomechanical</strong> engineering.
 						</p>
 
 						<div class="custom-btn-group mt-4">
-							<a href="images/resume/Main Resume 2023 Nov 8 .pdf" target="_blank"
-								class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-							<a href="#project" class="btn custom-btn custom-btn-bg custom-btn-link">To Projects</a>
+							<a href="files/Resume2024.pdf" target="_blank"
+								class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>Download Resume</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-5 col-md-12 col-12">
 					<div class="about-image svg">
-						<img src="images/undraw/portrait.jpeg" class="img-fluid" style="border-radius: 20%;"
-							alt="svg image">
+						<img src="https://alec-perkins.github.io/portfolio/images/homepage/portrait.jpeg" class="img-fluid" style="border-radius: 10%;"
+							alt="Photo of Alec Perkins">
 					</div>
 				</div>
 
 			</div>
 		</div>
-
-
-
 	</section>
-	<section class="about-long-text">
-		<hr width="90%" color="white" style="height:2px; margin-bottom: 5%;" id="about">
 
-		<img src="images/about/cabinet.png" class="img-fluid" style="border-radius: 50%; width:17%; margin:0% 5%;"
-			alt="svg image">
+
+
+
+	<!-- "ABOUT ME" SECTION -->
+
+	<hr>
+	<section id="about-me-section" class="about-long-text">
+
+		<img src="https://alec-perkins.github.io/portfolio/images/homepage/cabinet.png" class="img-fluid" style="border-radius: 50%; width:25%; margin: 30px;"
+			alt="Alec building a cabinet">
 
 		<div class="container">
 			<div class="container" style="width:80%;">
 
-				<h3>A little about me.</h3>
-				<p style="margin:7% 0 15% 0;">
-					My name is Alec Perkins. I'm a Mechanical Engineering major at UC Santa Barbara. I started coding 
-					in middle school, did front-end development, and later taught programming, but my personal 
-					projects usually combined art/design, software, and hardware. For that combination, Mechanical 
-					Engineering was ideal. As an undergraduate, I'm still building a broad base in fundamentals, 
-					but I am especially interested in Aerospace Engineering for space exploration and Biomedical 
+				<h2 class="color-accented-text" style="padding: 30px 0;">A little about me</h2>
+				<p>
+					My name is Alec Perkins. I’m a Mechanical Engineering major at UC Santa Barbara. I started coding
+					in middle school, did front-end development, and later taught programming, but my personal
+					projects usually combined art/design, software, and hardware. For that combination, Mechanical
+					Engineering was ideal. As an undergraduate, I’m still building a broad base in fundamentals,
+					but I am especially interested in Aerospace Engineering for space exploration and Biomedical
 					Engineering for designing life-changing medical devices.
 				</p>
 
 			</div>
 		</div>
 
-		<hr width="90%" color="white" style="height:2px; margin-bottom: 5%;" id="about">
 	</section>
 
 
 
-	<!-- PROJECTS -->
-	<section class="project py-5">
+	<!-- PROJECTS SECTION -->
+
+	<hr>
+	<section id="projects-list-section">
+
+		<div class="container text-center">
+			<h1 style="background-color: transparent; padding: 50px 0;">Projects</h1>
+		</div>
+
+		<div class="container text-center">
+
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="project-template.html"><img src="https://placehold.it/1000x2000?text=1000x2000" class="img-fluid" style="width:100%" alt="Image"></a>
+				</div>
+
+				<div class="col-sm-8">
+					<div class="well d-flex flex-column h-100">
+						<h3 class="well-title-text">Virginia</h3>
+						<br>
+						<p class="well-body-text"><strong>Lorem1 </strong>ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+
+						<a href="project-template.html"><p>(More...)</p></a>
+
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="project-template.html"><img src="https://placehold.it/1000x600" class="img-fluid" style="width:100%" alt="Image"></a>
+				</div>
+
+				<div class="col-sm-8">
+					<div class="well d-flex flex-column h-100">
+						<h3 class="well-title-text">Utah</h3>
+						<br>
+						<p class="well-body-text"><strong>Lorem1. </strong>ipsum Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+						<p class="well-body-text"><strong>Lorem2. </strong>ipsum Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+
+						<a href="project-template.html"><p>(More...)</p></a>
+
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="project-template.html"><img src="https://placehold.it/500x500" class="img-fluid" style="width:100%" alt="Image"></a>
+				</div>
+
+				<div class="col-sm-8">
+					<div class="well d-flex flex-column h-100">
+						<h3 class="well-title-text">Arizona</h3>
+						<br>
+						<p class="well-body-text"><strong>Lorem1 </strong>ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+
+						<a href="project-template.html"><p>(More...)</p></a>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<br>
+	</section>
+
+
+
+	<!-- EDUCATION AND SKILLS SECTION -->
+
+	<hr>
+	<section id="education-section" class="about-long-text">
+
+		<img src="https://alec-perkins.github.io/portfolio/images/homepage/cabinet.png" class="img-fluid" style="border-radius: 50%; width:25%; margin: 30px;"
+			alt="Alec building a cabinet">
+
+		<div class="container">
+			<div class="container" style="width:80%;">
+
+				<h2 class="color-accented-text" style="padding: 30px 0;">Education and Skills</h2>
+				<p>
+					My name is Alec Perkins. I’m a Mechanical Engineering major at UC Santa Barbara. I started coding
+					in middle school, did front-end development, and later taught programming, but my personal
+					projects usually combined art/design, software, and hardware. For that combination, Mechanical
+					Engineering was ideal. As an undergraduate, I’m still building a broad base in fundamentals,
+					but I am especially interested in Aerospace Engineering for space exploration and Biomedical
+					Engineering for designing life-changing medical devices.
+				</p>
+
+			</div>
+		</div>
+
+	</section>
+
+
+
+	<!-- FOOTER -->
+
+	<hr>
+	<footer id="footer" class="footer py-5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-12 col-12">
+					<h3 class="text-center color-accented-text"><strong>Alec Perkins</strong></h3>
+					<p>
+					<p class="text-center footer-text">(555) 555-5555
+						<br>AlecPerkinsW@gmail.com</p>
+					<p class="text-center footer-text">123 Easy Street
+						<br>Santa Barbara, CA 12345
+					</p>
+				</div>
+
+				<div class="custom-btn-group mt-12 text-center">
+					<a href="images/resume/Main Resume 2023 Nov 8 .pdf" target="_blank"
+						class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>Download Resume</a>
+				</div>
+
+				<div class="col-lg-12 col-12">
+					<p class="copyright-text text-center footer-copyright">Designed by <a rel="nofollow"
+						href="https://alec-perkins.github.io/portfolio/">Alec Perkins</a> &copy; 2024 Alec Perkins. All rights reserved.</p>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<!-- OLD PROJECTS SECTION -->
+	<!-- 	<section class="project py-5">
 		<div class="container" id="project">
 
 			<div class="row">
@@ -143,7 +280,7 @@
 
 						<div class="item">
 							<div class="project-center" class="project-info">
-								<!-- <a href="mount.html"> -->
+								<a href="mount.html">
 								<a>
 									<img src="images/project/mount.jpg" class="img-fluid" alt="project image">
 								</a>
@@ -184,7 +321,7 @@
 		</div>
 	</section>
 
-	<!-- <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+	<section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
 		<div class="container">
 			<div class="row">
 
@@ -284,7 +421,7 @@
 		</div>
 	</section>
 
-	
+
 	<section class="contact py-5" id="contact">
 		<div class="container">
 			<div class="row">
@@ -345,31 +482,19 @@
 
 			</div>
 		</div>
-	</section>
+	</section>-->
 
-	FOOTER
-	<footer class="footer py-5">
-		<div class="container">
-			<div class="row">
 
-				<div class="col-lg-12 col-12">
-					<p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p>
-					<p class="copyright-text text-center">Designed by <a rel="nofollow"
-							href="https://www.facebook.com/tooplate">Tooplate</a></p>
-				</div>
 
-			</div>
-		</div>
-	</footer> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/Headroom.js"></script>
-	<script src="js/jQuery.headroom.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/custom.js"></script>
+	<!-- <script src="https://alec-perkins.github.io/portfolio/js/popper.min.js"></script> -->
+	<script src="https://alec-perkins.github.io/portfolio/js/Headroom.js"></script>
+	<script src="https://alec-perkins.github.io/portfolio/js/jQuery.headroom.js"></script>
+	<!-- <script src="https://alec-perkins.github.io/portfolio/js/owl.carousel.min.js"></script> -->
+	<script src="https://alec-perkins.github.io/portfolio/js/smoothscroll.js"></script>
+	<script src="https://alec-perkins.github.io/portfolio/js/custom.js"></script>
 
 </body>
 
