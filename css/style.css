@@ -24,7 +24,7 @@
 	--body-text-color: var(--lightest-gray);
 
 	/* match these to whatever you import from Google fonts */
-	--light-font-weight: 300;
+	--light-font-weight: 200;
 	--regular-font-weight: 500;
 	--bold-font-weight: 700;
 }
@@ -35,8 +35,6 @@ html {
 }
 
 
-/* match this import to the --*-font-weight variables above */
-@import url("https://fonts.googleapis.com/css?family=Inter:300,500,700");
 body {
 	padding-top: 0;
 	background-color: var(--body-bg-color);

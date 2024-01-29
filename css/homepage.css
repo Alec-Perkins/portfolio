@@ -10,7 +10,6 @@
 
 #about-me-section {
 	background-color: var(--darkest-gray);
-	font-family: "times new roman";
 }
 
 #projects-list-section {
@@ -25,16 +24,20 @@
 }
 
 .big-alec {
-	color: var(--lightest-gray);
+	/* font-family: "Cormorant Garamond", serif;
+	font-style: italic;
+	font-weight: 600; */
+	/* font-weight: var(--light-font-weight); */
+	font-weight: 500;
 	font-size: 5em;
-	font-weight: var(--regular-font-weight);
-	margin-bottom:30px;
+	color: var(--lightest-gray);
+	margin-bottom: 30px;
 	line-height: 1.0;
 	display: inline-block;
 }
-
 .about-long-text {
 	padding: 30px;
 	background: var(--darkest-gray);
 }
+
 
